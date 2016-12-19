@@ -1,0 +1,6 @@
+config USB_TYPEC_TUSB320
+    bool "Support for tusb320"
+    help
+      The TUSB320 devices use the CC pins to determine port attach and
+      detach, cable orientation, role detection, and port control for
+      Type-C current mode.
